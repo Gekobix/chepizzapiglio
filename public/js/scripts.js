@@ -13,7 +13,7 @@ function getPizzom() {
 
       //Rimpiazzo l'HTML con la pizza
       document.getElementById("name").innerHTML =
-        "<h1> Pigliati una bella " +
+        "<h1> Pigliati una " +
         pizza.Nome +
         "</h1>";
       document.getElementById("picture").innerHTML =
@@ -21,7 +21,7 @@ function getPizzom() {
         pizza.id +
         ".jpg'></img>";
       document.getElementById("ingredients").innerHTML =
-        "<p>Ingredienti: </p><ul>" +
+        "<p>👇Ingredienti👇</p><ul>" +
         list + 
         "</ul>";
     })
